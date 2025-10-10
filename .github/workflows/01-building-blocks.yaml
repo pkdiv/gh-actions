@@ -3,11 +3,11 @@ on:
   - push
   - workflow_dispatch
 jobs:
-  - echo-hello:
-      runs-on: ubuntu-latest
-      steps:
-        - run: echo "Hello, World!"
-  - echo-goodbye:
-      runs-on: ubuntu-latest
-      steps:
-        - run: echo "Goodbye!" 
+  echo-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello, World!"
+  echo-goodbye:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Goodbye!" 
