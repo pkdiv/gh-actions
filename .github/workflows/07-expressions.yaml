@@ -3,7 +3,7 @@ on:
     workflow_dispatch:
         inputs:
             debug:
-                description: enable debig
+                description: enable debug
                 type: boolean
                 required: true
                 default: false
