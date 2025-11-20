@@ -23,7 +23,7 @@ jobs:
             - name: "[debug] Print when triggered from main"
               if: ${{ inputs.debug }}
               run: |
-                echo "I was triggered from main
+                echo "I was triggered from main"
             - name: Greeting
               run: |
                 echo "Hello, World"
